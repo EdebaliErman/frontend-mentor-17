@@ -1,0 +1,33 @@
+@tailwind components;
+
+@layer components {
+    .About {
+        @apply flex justify-center items-center my-56 flex-col px-28 gap-12 md:p-6 md:m-0
+    }
+
+    .card-text {
+        @apply px-16 m-12 md:p-0 md:m-0
+    }
+
+    .rigth-card {
+        @apply flex justify-center items-center p-12 shadow-md font-popins gap-12 
+        md:flex-col-reverse md:p-0 md:gap-0 md:py-12 rounded-xl border-2
+   
+    }
+
+    .rigth-card h1, .left-card h1 {
+        @apply text-4xl font-bold my-6 
+        md:text-xl md:text-center md:mt-12
+    }
+
+    .rigth-card h4, .left-card h4 {
+        @apply text-xl text-grayBlue
+        md:text-sm md:text-center md:px-6
+    }
+
+    .left-card {
+        @apply flex justify-center items-center p-12 shadow-md font-popins gap-12 flex-row-reverse 
+        md:flex-col-reverse md:p-0 md:gap-0 md:py-12 rounded-xl border-2
+    }
+
+}
