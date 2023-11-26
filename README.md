@@ -1,3 +1,13 @@
+# Desktop
+
+<img src="public/assets/desktop.png" alt="no.png">
+
+# Mobil
+
+<img src="public/assets/mobil.png" alt="no.png">
+
+# Demo : https://ubiquitous-seahorse-607623.netlify.app/ 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
