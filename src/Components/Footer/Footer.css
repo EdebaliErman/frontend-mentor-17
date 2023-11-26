@@ -1,0 +1,52 @@
+@tailwind components;
+
+@layer components {
+    .Footer {
+        @apply flex justify-around items-center bg-darkCyan flex-col relative pt-48 mt-96
+    }
+
+    .asking-card {
+        @apply w-2/4 bg-white shadow-2xl border-[1px] rounded-xl h-56 flex justify-center items-center flex-col gap-8 
+        absolute  mb-96 bottom-24 
+        md:w-80 md:h-max md:py-8  md:gap-4 md:top-[-6rem] 
+    }
+
+    .asking-card h1 {
+        @apply text-3xl font-bold font-popins
+        md:text-base md:text-center
+    }
+    .asking-card button {
+        @apply text-sm font-semibold font-opensans text-white bg-pinkbg hover:bg-pink-400 w-1/3 py-4 shadow-2xl rounded-3xl
+    md:w-44 md:text-xs md:p-0 md:py-3
+    }
+    .contact{
+        @apply flex justify-start items-start flex-col w-full text-white gap-5 font-opensans
+    }
+    .contact-bar {
+        @apply w-full flex justify-between items-start px-32 gap-12 pb-12
+        md:flex-col md:px-4 md:gap-0
+    }
+    .contact-bar ul{
+        @apply flex justify-start items-start flex-col gap-4 pb-12
+        md:pb-5 md:mb-0
+    }
+    .contact-bar ul li{
+        @apply flex  justify-start items-start gap-3 text-start hover:underline cursor-pointer
+    }
+    .contact-bar ul li img{
+        @apply pt-2
+    }
+    .footer-social{
+        @apply flex flex-col justify-between items-start h-48 text-base font-popins
+        md:items-center md:p-0 md:justify-center md:gap-12
+    }
+    .social {
+        @apply flex justify-center items-center gap-3
+    }
+    .social span{
+        @apply w-10 h-10 border-2  border-white flex justify-center items-center rounded-3xl hover:border-pinkbg cursor-pointer
+    }
+    .social span svg {
+        @apply m-1
+    }
+}
