@@ -17,17 +17,17 @@ function Footer() {
           <div className='md:mb-12'>
             <ul>
               <li >
-                <img src={images.location} />
+                <img src={images.location} alt='icon'/>
                 <p className='w-60'>
                   Lorem ipsum dolor sit amet, consectetur adipisang cult, sed do eiusmod tempor inadidunt ut labore et dolore magna auiqua
                 </p>
               </li>
               <li>
-                <img src={images.phone} />
+                <img src={images.phone} alt='icon'/>
                 <p>+1-543-123-4567</p>
               </li>
               <li>
-                <img src={images.email} />
+                <img src={images.email} alt='icon'/>
                 <p>example@huddle.com</p>
               </li>
             </ul>
