@@ -1,0 +1,6 @@
+@tailwind components;
+@layer components{
+    .App{
+        @apply relative z-10
+    }
+}

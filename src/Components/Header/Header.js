@@ -5,8 +5,8 @@ function Header() {
 
     return (
         <div className='Header'>
-            <header>
-                <img className='md:w-20 ' src={images.logo} alt='logo' />
+              <header>
+                <img className='md:w-20 relative  ' src={images.logo} alt='logo' />
                 <button>Try It Free</button>
             </header>
             <footer>

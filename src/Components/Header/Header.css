@@ -2,16 +2,16 @@
 
 @layer components {
     .Header {
-        @apply p-12 bg-paleCyan font-opensans
+        @apply p-12 bg-paleCyan font-opensans   relative
         md:p-6
     }
 
     header {
-        @apply flex justify-between items-center
+        @apply flex justify-between items-center  
     }
 
     header button {
-        @apply px-12 py-3 bg-white font-popins font-bold rounded-3xl shadow-lg
+        @apply px-12 py-3 bg-white font-popins font-bold rounded-3xl shadow-lg 
         md:p-4 md:py-1 md:text-[12px]
     }
 
@@ -22,11 +22,11 @@
 
     footer>div:first-child {
         @apply w-1/2 flex flex-col gap-12
-        md:w-full md:text-center md:justify-center md:items-center
+        md:w-full md:text-center md:justify-center md:items-center relative z-20
     }
 
     footer>div:first-child h1 {
-        @apply text-6xl font-bold
+        @apply text-6xl font-bold 
         md:text-3xl
     }
 
